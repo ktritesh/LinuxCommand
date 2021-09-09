@@ -1,0 +1,7 @@
+create background process for node applicatoin using systemctl configuratiojn -
+#systemctl start myapp  instead of "node server.js"
+
+configure apache -   add proxypass for your application. 
+
+
+client (browser) - http://<IP> -> <IP>:80 (apache web server) -> backend app on port 3000 --> database on port 27017
